@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.TopTextPage , #demo2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-weight: 800;
+    margin: 15px 0;
+}
+
+.mainContener{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.boxElement{
+    width: 25%;
+}
+
+.boxChooise{
+    background : rgb(242, 233, 176);
+    height: 320px;
+    border: solid black 2px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5% ;
+}
+
+.rectngele{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.rectngele h3,span{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px 10px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.showChoois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#selectChooisPlayer1{
+    width: 250px;
+    height: 250px;
+    background-image: url('../image/RockPNG.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#selectChooisPlayer2{
+    width: 250px;
+    height: 250px;
+    background-image: url('../image/Scissors-PNG.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.Choois_player1 , .Choois_player2{
+    height: 90%;
+    margin: 0 20px;
+    padding: 15px;
+    border-radius: 50%;
+    background : rgb(245, 247, 170);
+    cursor: pointer;
+}
+
+.Choois_player1 img ,.Choois_player2 img{
+    height: 30px ;
+    width: 40px ;  
+}
